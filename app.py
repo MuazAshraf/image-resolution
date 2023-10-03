@@ -50,6 +50,6 @@ gr.Interface(
     description=description,
     article=article,
     examples=examples,
-).launch(enable_queue=True, share=True)
+).launch(enable_queue=True, share=True, server_name=shared.args.listen_host or '0.0.0.0')
 
 
