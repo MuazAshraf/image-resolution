@@ -33,7 +33,7 @@ def enhance(image):
     
     return Image.fromarray(output)
 
-title = "Demo: Swin2SR for Image Super-Resolution 🚀🚀🔥"
+title = "Mojo Solo Image Super-Resolution"
 description = ''' 
 **This demo expects low-quality and low-resolution JPEG compressed images.**
 **Demo notebook can be found [here](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/Swin2SR/Perform_image_super_resolution_with_Swin2SR.ipynb).
@@ -50,6 +50,6 @@ gr.Interface(
     description=description,
     article=article,
     examples=examples,
-).launch(enable_queue=True, share=True, port=7860)
+).launch(enable_queue=True, share=True)
 
 
