@@ -50,5 +50,6 @@ gr.Interface(
     description=description,
     article=article,
     examples=examples,
-    ).launch(enable_queue=True, share=True, host="0.0.0.0", port=7860)
+).launch(enable_queue=True, share=True, port=7860)
+
 
